@@ -1,19 +1,18 @@
 import React from 'react';
-import '../../assets/css/nav.scss'
+import '../assets/scss/nav.scss'
 
 class Navbar extends React.Component{
     render (){
         return (
-            <nav>
+            <nav class="navbar-transition cool-navbar z-depth-0">
             <div class="nav-wrapper" id="nav">
-              <a href="#" class="brand-logo">Portfolio</a>
+              <a href="/r" class="brand-logo">Portfolio</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="/#/about">About</a></li>
-                <li><a href="/#/register">Signup</a></li>
+                <li><a id= "nav-text"href="#">Projects</a></li>
+                <li><a href="#">Resume</a></li>
               </ul>
             </div>
           </nav>   
-
         )
     }
 }
