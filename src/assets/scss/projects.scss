@@ -1,14 +1,34 @@
+.project-card {
+  margin: 1em !important;
+}
+.title {
+  color: #7f944c;
+  font-family: fantasy;
+}
+.resume{
+  display: flex !important;
+  margin: 0.25em 1em 0em;
+  justify-content: flex-end !important;
+}
+.card-title {
+  color: #ffa444;
+  font-family: fantasy;
+  font-size: 22px;
+}
 
-.project-card{
-display: flex;
+.detail-card {
+  display: flex;
 }
 
 .card.small .card-image {
-    max-height: 84% !important;
-    max-width:40% !important;
-    overflow:hidden !important;
+  max-height: 84% !important;
+  max-width: 40% !important;
+  overflow: hidden !important;
 }
-.card.small .card-image+.card-content{
-    max-height: 84% !important;
-    background-color: mintcream;
+.card.small .card-image + .card-content {
+  max-height: 84% !important;
+  background-color: mintcream;
+}
+.material-icons {
+  color: #6cacc0 !important;
 }

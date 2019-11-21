@@ -1,3 +1,34 @@
-.skills{
-    background-color:#AAAAAA;
+.container {
+  display: flex !important;
+  flex-direction: column;
+  .the-headers {
+    .title {
+      color: #7f944c;
+      font-family: fantasy;
+    }
+    .heading {
+      color: #ffa444;
+      font-family: fantasy;
+      font-size: 22px;
+    }
+  }
+
+  .details {
+    display: flex;
+    height: 450px;
+  }
+  .about-details {
+    width: 40% !important;
+  }
+  .about-details span {
+    font-size: 18px;
+    color: #aaaaaa;
+  }
+  .chart-details {
+    width: 60% !important;
+    .chart-det {
+      width: 100%;
+      height: 80%;
+    }
+  }
 }
