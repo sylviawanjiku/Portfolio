@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100% !important;
+  background-color: #303030;
+
+  #root {
+    height: inherit !important;
+
+    .App {
+      height: inherit !important;
+      #background {
+        width: 100%;
+        height: inherit !important;
+
+        .mainContainer {
+          height: 100%;
+          .helloContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: 100%;
+            .greetings {
+              display: inline-grid;
+              flex-direction: column;
+              width: 40%;
+              .logo {
+                width: 9%;
+                position: absolute !important;
+                padding: 0.5em 0em;
+                top: 1em;
+                height: 150px;
+                position: static;
+              }
+              .message {
+                margin-top:10em ;
+                width: 100%;
+                font-size: 24px;
+                color: #7f944c;
+                font-family: fantasy;
+                padding: 1em;
+              }
+            }
+            .imageSelf {
+              width: 30%;
+              #myPicture {
+                width: 385px;
+                height: 420px;
+                margin-top: 4.2em;
+              }
+            }
+            .otherDetails {
+              display: inline-grid;
+              flex-direction: column;
+              width: 30%;
+              .icons {
+                justify-self: end;
+
+                padding: 0em 2em 4em;
+                list-style-type: none;
+                .icon {
+                  border-radius: 100%;
+                  color: #6cacc0;
+                  fill: #6cacc0;
+                  &:hover {
+                    background: grey;
+                    color: #ffa444;
+                    fill: #ffa444;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

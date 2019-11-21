@@ -1,0 +1,20 @@
+.cool-navbar {
+  background-color: #3b3a3a !important;
+  width: 35% !important;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2em 2em 0.5em 32em !important;
+  border-radius: 2%;
+}
+#nav {
+  border: none !important;
+  text-align: center;
+}
+
+nav a {
+  color: #ffa444 !important;
+  padding: 0 2em !important;
+  &:hover {
+    color: #6cacc0 !important;
+  }
+}
