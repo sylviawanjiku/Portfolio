@@ -1,6 +1,7 @@
 html,
 body {
   height: 100% !important;
+  background-color: #303030;
 
   #root {
     height: inherit !important;
@@ -23,32 +24,20 @@ body {
               flex-direction: column;
               width: 40%;
               .logo {
-                width: 100%;
+                width: 9%;
+                position: absolute !important;
                 padding: 0.5em 0em;
-                height: 172px;
+                top: 1em;
+                height: 150px;
                 position: static;
               }
               .message {
+                margin-top:10em ;
                 width: 100%;
                 font-size: 24px;
+                color: #7f944c;
                 font-family: fantasy;
                 padding: 1em;
-              }
-              .icons {
-                width: 100%;
-                padding: 0em 1em;
-                list-style-type: none;
-                .icon {
-                  border-radius: 100%;
-                  color: grey; // IE8
-                  fill: grey;
-                  &:hover {
-                    background: white;
-                    color: teal; // IE8
-                    fill: teal;
-                  }
-                }
-                
               }
             }
             .imageSelf {
@@ -63,22 +52,20 @@ body {
               display: inline-grid;
               flex-direction: column;
               width: 30%;
-              .bigNameLogo {
-                width: 100%;
-              }
-              .title {
-                width: 100%;
-                #wanjiku {
-                    position:absolute;
-                    bottom: 4.5em;
-                    width: 29%;
-                  height: 100px;
-                }
-                #mbugua {
-                    position:absolute;
-                  width: 235px;
-                  height: 60px;
-                  bottom: 0.5em;
+              .icons {
+                justify-self: end;
+
+                padding: 0em 2em 4em;
+                list-style-type: none;
+                .icon {
+                  border-radius: 100%;
+                  color: #6cacc0;
+                  fill: #6cacc0;
+                  &:hover {
+                    background: grey;
+                    color: #ffa444;
+                    fill: #ffa444;
+                  }
                 }
               }
             }
@@ -88,24 +75,3 @@ body {
     }
   }
 }
-
-// .intro {
-//   //   background-image: url("../img/screen.jpg");
-//   //   height: 520px !important;
-//   // margin: 5em 0 10em 0 !important;
-// }
-
-// .intro-card {
-//   widows: 250px !important;
-// }
-
-// .projects {
-//   margin: 0 0 10em 0 !important;
-//   height: 520px !important;
-// }
-
-// .contact {
-//   margin: 0 0 10em 0 !important;
-//   height: 520px !important;
-//   background-color: black;
-// }
