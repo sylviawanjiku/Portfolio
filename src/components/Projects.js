@@ -8,6 +8,8 @@ class Projects extends React.Component {
   render() {
     return (
       <div className="container">
+        <div className="next"><a  href="/#/contact" > <i className="material-icons large">chevron_right</i></a></div>
+        <div className="back"><a  href="/#/about" > <i className="material-icons large">chevron_left</i></a></div>
         <h3 className="center title">
           Projects Done:
                 </h3>

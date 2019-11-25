@@ -6,6 +6,8 @@ class Skills extends Component {
     render() {
         return (
             <div className="skills">
+                <div className="next"><a className="large" href="/#/work" > <i className="material-icons large">chevron_right</i></a></div>
+                <div className="back"><a className="large" href="/#/" > <i className="material-icons large">chevron_left</i></a></div>
                 <div className="container">
                     <div className="the-headers">
                         <h1 className="title">
