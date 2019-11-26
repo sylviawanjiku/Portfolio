@@ -12,6 +12,10 @@
   display: flex !important;
   flex-direction: column;
   .the-headers {
+    .navBar{
+      position: absolute;
+      top: 5.5em;
+    }
     .title {
       color: #7f944c;
       font-family: fantasy;

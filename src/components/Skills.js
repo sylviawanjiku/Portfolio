@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "../assets/scss/skills.scss";
 import Chart from "../assets/img/Chart.png";
+import Navbar from "./Navbar"
 
 class Skills extends Component {
     render() {
@@ -10,9 +11,13 @@ class Skills extends Component {
                 <div className="back"><a className="large" href="/#/" > <i className="material-icons large">chevron_left</i></a></div>
                 <div className="container">
                     <div className="the-headers">
+                    <div className="navBar">
+          <Navbar />
+        </div>
                         <h1 className="title">
                             Sylvia <br />Mbugua
                        </h1>
+                     
                         <span className="heading">About Me:</span>
                     </div>
 
