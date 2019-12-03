@@ -3,14 +3,20 @@ import Travela from "../assets/img/Travela.png";
 import Author from "../assets/img/Author.png";
 import StoreManager from "../assets/img/StoreManager.png";
 import "../assets/scss/projects.scss";
+import Navbar from "./Navbar"
 
 class Projects extends React.Component {
   render() {
     return (
       <div className="container">
+        <div className="next"><a  href="/#/contact" > <i className="material-icons large">chevron_right</i></a></div>
+        <div className="back"><a  href="/#/about" > <i className="material-icons large">chevron_left</i></a></div>
         <h3 className="center title">
           Projects Done:
-                </h3>
+        </h3>
+        <div className="navBar">
+          <Navbar />
+        </div>
         <div className="resume">
           <div>
             <h5 className=" resume title">

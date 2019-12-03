@@ -1,7 +1,21 @@
+.next {
+  position: absolute;
+  left: 92.5%;
+  top: 45%;
+}
+.back {
+  position: absolute;
+  left: 0%;
+  top: 45%;
+}
 .container {
   display: flex !important;
   flex-direction: column;
   .the-headers {
+    .navBar{
+      position: absolute;
+      top: 5.5em;
+    }
     .title {
       color: #7f944c;
       font-family: fantasy;

@@ -1,3 +1,13 @@
+.next {
+  position: absolute;
+  left: 92.5%;
+  top: 45%;
+}
+.back {
+  position: absolute;
+  left: 0%;
+  top: 45%;
+}
 .project-card {
   margin: 1em !important;
 }
@@ -5,7 +15,12 @@
   color: #7f944c;
   font-family: fantasy;
 }
-.resume{
+.navBar{
+  .cool-navbar{
+    width: 40% !important; 
+  }
+ }
+.resume {
   display: flex !important;
   margin: 0.25em 1em 0em;
   justify-content: flex-end !important;
@@ -31,4 +46,8 @@
 }
 .material-icons {
   color: #6cacc0 !important;
+}
+
+.container .chart-details .chart-det {
+  margin-left: 2em;
 }

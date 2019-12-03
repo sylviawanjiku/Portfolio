@@ -1,0 +1,34 @@
+html{
+  height: 100% !important;
+  background-color: #303030;
+}
+ 
+
+.title {
+  color: #7f944c;
+  font-family: fantasy;
+}
+.form-det{
+  margin: 0.2em;
+}
+
+form,span{
+  font-family: fantasy;
+  color: #ffa444;
+  font-size: 20px !important;
+}
+.message{
+  outline: none;
+  resize: none;
+  height: 9em;
+}
+
+.submit{
+  background-color: #6cacc0;
+  font-family: fantasy;
+  width: 20% !important;
+  height: 2em !important;
+  &:hover {
+    color:#7f944c !important;
+  }
+}

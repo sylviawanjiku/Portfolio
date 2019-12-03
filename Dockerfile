@@ -1,8 +1,8 @@
 # base image
-FROM node:latest
+FROM node:carbon
 
 # set working directory
-WORKDIR /src
+WORKDIR /usr/src/app
 
 # add `/app/node_modules/.bin` to $PATH
 ENV PATH /node_modules/.bin:$PATH
@@ -12,5 +12,8 @@ COPY package.json /app/package.json
 RUN npm install --silent
 RUN npm install react-scripts@3.0.1 -g --silent
 
-# start app
-CMD ["npm", "start"]
+# install and cache app dependencies
+COPY build /usr/src/app
+
+# Install `serve` to run the application.
+RUN npm install -g serve@11.2.0

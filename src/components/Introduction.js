@@ -10,12 +10,13 @@ class Introduction extends React.Component {
   render() {
     return (
       <div className="helloContainer">
+        <div className="next"><a href="/#/about" > <i className="material-icons large">chevron_right</i></a></div>
         <div className="greetings">
           <div className="logo">
             <img src={Logo2} alt="Logo"></img>
           </div>
           <div className="message">
-            <span> Hello,meet Sylvia Mbugua. <br/>I am a frontend/backend software developer. <br /> Welcome to my Portfolio!</span>
+            <span> Hello,meet Sylvia Mbugua. <br />I am a frontend/backend software developer. <br /> Welcome to my Portfolio!</span>
           </div>
         </div>
         <div className="imageSelf">

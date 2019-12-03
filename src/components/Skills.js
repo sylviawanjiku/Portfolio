@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
 import "../assets/scss/skills.scss";
-import Chart from "../assets/img/Chart.png";
+import chart from "../assets/img/chart.png";
+import Navbar from "./Navbar"
 
 class Skills extends Component {
     render() {
         return (
             <div className="skills">
+                <div className="next"><a className="large" href="/#/work" > <i className="material-icons large">chevron_right</i></a></div>
+                <div className="back"><a className="large" href="/#/" > <i className="material-icons large">chevron_left</i></a></div>
                 <div className="container">
                     <div className="the-headers">
+                    <div className="navBar">
+          <Navbar />
+        </div>
                         <h1 className="title">
                             Sylvia <br />Mbugua
                        </h1>
+                     
                         <span className="heading">About Me:</span>
                     </div>
 
@@ -21,7 +28,7 @@ class Skills extends Component {
                             </span>
                         </div>
                         <div className="chart-details">
-                            <img className="chart-det" src={Chart} alt="Chart"></img>
+                            <img className="chart-det" src={chart} alt="Chart"></img>
                         </div>
 
                     </div>
