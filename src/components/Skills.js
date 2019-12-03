@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../assets/scss/skills.scss";
-import chart from "../assets/img/chart.png";
+import Chart from "../assets/img/Chart.png";
 import Navbar from "./Navbar"
 
 class Skills extends Component {
@@ -28,7 +28,7 @@ class Skills extends Component {
                             </span>
                         </div>
                         <div className="chart-details">
-                            <img className="chart-det" src={chart} alt="Chart"></img>
+                            <img className="chart-det" src={Chart} alt="Chart"></img>
                         </div>
 
                     </div>
