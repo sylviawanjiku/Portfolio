@@ -1,34 +1,41 @@
-html{
+html {
   height: 100% !important;
   background-color: #303030;
 }
- 
-
 .title {
   color: #7f944c;
   font-family: fantasy;
 }
-.form-det{
+.form-det {
   margin: 0.2em;
 }
 
-form,span{
+form,
+span {
   font-family: fantasy;
   color: #ffa444;
   font-size: 20px !important;
 }
-.message{
+.message {
   outline: none;
   resize: none;
-  height: 9em;
+  height: 5em;
 }
 
-.submit{
+.submit {
   background-color: #6cacc0;
   font-family: fantasy;
   width: 20% !important;
   height: 2em !important;
   &:hover {
-    color:#7f944c !important;
+    color: #7f944c !important;
   }
+}
+
+.contact-details {
+  height: 8em !important;
+  width: 60em !important;
+  margin: 1em 0;
+  color: #ffa444;
+  font-family: fantasy;
 }
