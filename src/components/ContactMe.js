@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../assets/scss/contact.scss'
 
 class Contact extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             firstName: '',
@@ -12,15 +12,15 @@ class Contact extends Component {
         }
     }
 
-    handleChange =(e)=>{
+    handleChange = (e) => {
         this.setState({
-           [ e.target.name]: e.target.value
+            [e.target.name]: e.target.value
         })
 
     }
-    handleSubmit = (e)=> {
+    handleSubmit = (e) => {
         e.preventDefault();
-        console.log("nnnnnn")
+        // console.log("nnnnnn")
         // const newMail = {
         //     firstName: this.state.firstName,
         //     lastName: this.state.lastName,
@@ -29,16 +29,16 @@ class Contact extends Component {
         // }
         // console.log("Mail:",newMail)
     }
-   
+
     render() {
-        
+
         return (
             <div className="container">
                 <div className="title center">
                     <h1> Contact Me</h1>
                 </div>
-                <div className="next"><a  href="/#/" > <i className="material-icons large">chevron_right</i></a></div>
-                <div className="back"><a  href="/#/work" > <i className="material-icons large">chevron_left</i></a></div>
+                <div className="next"><a href="/#/" > <i className="material-icons large">chevron_right</i></a></div>
+                <div className="back"><a href="/#/work" > <i className="material-icons large">chevron_left</i></a></div>
                 <form>
                     <div className="form-det">
                         <span>First name:</span><br />
@@ -57,9 +57,17 @@ class Contact extends Component {
                         <textarea name="comment" className="message" onChange={this.handleChange}></textarea>
                     </div>
                 </form>
-                <button className="submit" onSubmit = {this.handleSubmit}>
+                <button className="submit" onSubmit={this.handleSubmit}>
                     Send Message
                 </button>
+                <div className="contact-details">
+                    <ul className="center">
+                        <li>Mobile Number : +254701670446</li>
+                        <li>Email: sylvia.mbugua12@gmail.com</li>
+                        <li>LinkedIn:<a href="https://www.linkedin.com/in/sylvia-mbugua">Sylvia Mbugua</a></li>
+                    </ul>
+                </div>
+
 
             </div>
         )
