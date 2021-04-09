@@ -9,41 +9,8 @@ class Contact extends Component {
             status: '',
 
         }
-        // this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
-
-    // handleChange = (e) => {
-    //     console.log(this.state)
-    //     this.setState({
-    //         [e.target.name]: e.target.value
-    //     })
-    // }
-    // handleSubmit = (e) => {
-    //     console.log("clicked")
-    //     e.preventDefault();
-
-    //     const { firstName, lastName, email, comment } = this.state
-
-    //     let templateParams = {
-    //         firstName,
-    //         lastName,
-    //         email,
-    //         subject: comment
-    //        }
-           
-    //        this.resetForm()
-
-    // }
-    // resetForm() {
-    //     this.setState({
-    //         firstName: '',
-    //         lastName: '',
-    //         email: '',
-    //         comment: '',
-    //     })
-    // }
-
 
     render() {
         const { status } = this.state;

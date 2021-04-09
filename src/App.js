@@ -1,7 +1,5 @@
 import React from 'react';
 import Home from "./views/Home";
-import { Provider } from "react-redux";
-import store from "./redux/store";
 import ProjectCards from "./components/Projects";
 import Skills from "./components/Skills";
 import ContactMe from "./components/ContactMe";
@@ -12,14 +10,12 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Provider store={store}>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact={true} path="/about" component={Skills} />
             <Route exact={true} path="/contact" component={ContactMe} />
             <Route exact={true} path="/work" component={ProjectCards} />
           </Switch>
-        </Provider>
       </div>
     </Router>
   );

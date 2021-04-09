@@ -45,14 +45,16 @@ export const ProjectCards = () => {
       </div>
       <div className="resume">
         <div>
-
           <h5 className=" resume title">
             Resume
-            </h5>
+          </h5>
         </div>
-
         <div>
-          <a href="https://drive.google.com/file/d/1J0BceMl4WB7vQk9hx2EsmnwzPcBsH5Ik/view?usp=sharing">
+          <a href="https://novoresume.com/editor/resume/2d5aac60-db04-11e9-bf88-bb62bccdd0c0">
+            <span class="small material-icons view-resume-icon">visibility</span></a>
+        </div>
+        <div>
+          <a href="https://drive.google.com/file/d/1gTNbLZR4biNqIFlyjp39jag3jhHPYYDT/view?usp=sharing">
             <i className="small material-icons resume-icon">cloud_download</i></a>
         </div>
       </div>
